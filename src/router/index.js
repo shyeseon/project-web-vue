@@ -1,5 +1,8 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import { createRouter, createWebHistory } from 'vue-router';
+import HomeView from '../views/HomeView.vue';
+import Ch02ComponentRouting from './Ch02ComponentRouting';
+import Ch03DataBinding from './Ch03DataBinding';
+import Ch04EventHandlingWatch from './Ch04EventHandlingWatch'
 
 const routes = [
   {
@@ -7,14 +10,13 @@ const routes = [
     name: 'home',
     component: HomeView
   },
-  {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-  }
+  //구조분해 해서 추가하기
+  ...Ch02ComponentRouting,
+  
+  ...Ch03DataBinding,
+
+  ...Ch04EventHandlingWatch
+
 ]
 
 const router = createRouter({
@@ -22,4 +24,4 @@ const router = createRouter({
   routes
 })
 
-export default router
+export default router;
