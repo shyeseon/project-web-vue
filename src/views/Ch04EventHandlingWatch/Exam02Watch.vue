@@ -76,7 +76,7 @@ function handleProductChange(){
 }
 
 //복수개의 상태를 감시할 경우
-watch([userId, product], ([newUserId, oldUserID],[newProduct,oldProduct]) => {
+watch([userId, product], ([newUserId, newProduct],[oldUserID,oldProduct]) => {
     console.group("복수개의 상태를 감시할 경우")
     console.log("newUserID: "+newUserId);
     console.log("oldUserID: ",oldUserID);

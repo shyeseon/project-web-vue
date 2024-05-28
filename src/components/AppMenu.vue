@@ -152,6 +152,33 @@
                 </div>
              </div>
           </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button fw-bold" type="button" 
+                    data-bs-toggle="collapse" data-bs-target="#collapse5" 
+                    aria-expanded="true" aria-controls="collapse5">
+                    Ch05. DataDelivery 
+            </button>
+            </h2>
+            <div id="collapse5" class="accordion-collapse show" 
+                data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <RouterLink to="/Ch05DataDelivery/Exam01Props"  class="nav-link">
+                            Exam01Props: 부모에서 자식으로(prop 방식)
+                        </RouterLink>
+                    </li>
+                    <li class="nav-item">
+                        <RouterLink to="/Ch05DataDelivery/Exam02EventEmit"  class="nav-link">
+                            Exam02EventEmit: 자식에서 부모로(event 방식)
+                        </RouterLink>
+                    </li>
+                   </ul>
+                </div>
+             </div>
+          </div>
     </div>
 </template>
 
