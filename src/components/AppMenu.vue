@@ -131,7 +131,7 @@
             <button class="accordion-button fw-bold" type="button" 
                     data-bs-toggle="collapse" data-bs-target="#collapse4" 
                     aria-expanded="true" aria-controls="collapse4">
-                Ch04. Ch04EventHandlingWatch
+                Ch04.EventHandling & Watch
             </button>
             </h2>
             <div id="collapse4" class="accordion-collapse show" 
@@ -139,8 +139,13 @@
             <div class="accordion-body">
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <RouterLink to="/Ch04EventHandlingWatch/Exam01View"  class="nav-link">
-                            Exam01View: 뷰 컴포넌트(싱글파일)
+                        <RouterLink to="/Ch04EventHandlingWatch/Exam01EventHandling"  class="nav-link">
+                            Exam01EventHandling: 이벤트 처리
+                        </RouterLink>
+                    </li>
+                    <li class="nav-item">
+                        <RouterLink to="/Ch04EventHandlingWatch/Exam02Watch"  class="nav-link">
+                            Exam02Watch: 상태 변경 감시
                         </RouterLink>
                     </li>
                    </ul>
