@@ -175,6 +175,65 @@
                             Exam02EventEmit: 자식에서 부모로(event 방식)
                         </RouterLink>
                     </li>
+                    <li class="nav-item">
+                        <RouterLink to="/Ch05DataDelivery/Exam03ProvideInject"  class="nav-link">
+                            Exam03ProvideInject: provide / Inject
+                        </RouterLink>
+                    </li>
+                   </ul>
+                </div>
+             </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button fw-bold" type="button" 
+                    data-bs-toggle="collapse" data-bs-target="#collapse6" 
+                    aria-expanded="true" aria-controls="collapse6">
+                    Ch06. LifeCycleHook
+            </button>
+            </h2>
+            <div id="collapse6" class="accordion-collapse show" 
+                data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <RouterLink to="/Ch06LifeCycleHook/Exam01LifeCycleHook"  class="nav-link">
+                            Exam01LifeCycleHook: 라이프 사이클 훅
+                        </RouterLink>
+                    </li>
+                    <li class="nav-item">
+                        <RouterLink to="/Ch06LifeCycleHook/Exam02DomElementRef"  class="nav-link">
+                            Exam02DomElementRef: DOM 엘리먼트 참조 
+                        </RouterLink>
+                    </li>
+                   </ul>
+                </div>
+             </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button fw-bold" type="button" 
+                    data-bs-toggle="collapse" data-bs-target="#collapse7" 
+                    aria-expanded="true" aria-controls="collapse7">
+                    Ch07. Vuex State Management 
+            </button>
+            </h2>
+            <div id="collapse7" class="accordion-collapse show" 
+                data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <RouterLink to="/Ch07VuexStateManagement/Exam01RootState"  class="nav-link">
+                            Exam01RootState: 루트 상태 읽기 및 변경
+                        </RouterLink>
+                    </li>
+                    <li class="nav-item">
+                        <RouterLink to="/Ch07VuexStateManagement/Exam02CounterState"  class="nav-link">
+                            Exam02CounterState: counter 상태 읽기 및 변경
+                        </RouterLink>
+                    </li>
                    </ul>
                 </div>
              </div>

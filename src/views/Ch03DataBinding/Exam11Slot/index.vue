@@ -24,6 +24,7 @@ let modalDialogA = null;
 let modalDialogB = null;
 let modalDialogC = null;
 
+//document queryselector를 실행하기 위해 mounted 되었는 지를 확인 후 실행해야 함
 //컴포넌트가 생성되고, DOM 부착될때 자동으로 실행되는 콜백
 onMounted(() => {
     modalDialogA = new Modal(document.querySelector("#dialogA"));
